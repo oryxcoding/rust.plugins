@@ -33,7 +33,7 @@ namespace Oxide.Plugins
         public Dictionary<ulong, int> LandEdit = new Dictionary<ulong, int>();
         public Dictionary<ulong, int> PlayerCache = new Dictionary<ulong, int>();
 
-        //config file
+        //config file.
         public bool useEconomics = true;
         public bool useServerRewards = false;
         public float timeShow = 120f;
