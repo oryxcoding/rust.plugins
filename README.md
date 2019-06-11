@@ -1,5 +1,5 @@
 # **rust.plugins**
-All my offical plugins can be found at this link [umod-oryx](https://umod.org/user/oryx#plugins) i will be uploading my plugins here even those are not publish.
+All my offical plugins can be found at this link [umod-oryx](https://umod.org/user/oryx#plugins) i will be uploading my plugins here my plugins that are published and those that i stopped working on. Feel free to contact me on discord `Oryx#5775`
 
 ## **Published plugins:**
 
