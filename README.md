@@ -3,4 +3,4 @@ All my offical plugins can be found at this link [umod-oryx](https://umod.org/us
 
 ## **Published plugins:**
 
--FuelGauge version 0.1.7 [Fuel Gauge](https://umod.org/plugins/fuel-gauge)
+- FuelGauge version 0.1.7 [Fuel Gauge](https://umod.org/plugins/fuel-gauge)
