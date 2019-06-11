@@ -35,20 +35,24 @@ namespace Oxide.Plugins
 
             public int GetFuelAmount()
             {
-                if (entity.GetParentEntity() as MotorRowboat)
+                if (entity.GetParentEntity() is MotorRowboat)
                 {
                     return (entity.GetParentEntity() as MotorRowboat).GetFuelAmount();
                 }
-                else
+                else if(entity.GetParentEntity() is MiniCopter)
                 {
                     return (entity.GetParentEntity() as MiniCopter).GetFuelAmount();
+                }else
+                {
+                    Puts("Could not get fuel amount!")
+                    return 0;
                 }
             }
         }
         #endregion
 
         #region Config
-        protected override void LoadDefaultConfig()
+        protected override void LoadDefaultCofig()
         {
             var config = new ConfigData
             {
